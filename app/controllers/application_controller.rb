@@ -19,8 +19,8 @@ class ApplicationController < Sinatra::Base
     article = Article.new({title: params[:title], content: params[:content]})
     article.save
 
-    erb :index
+    # erb :index
   end
 
-  
+
 end
