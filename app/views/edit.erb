@@ -3,5 +3,6 @@
   <input type="text" name="title" id="<%= @article.name %>"></p>
   <p><label for="content">Article Content:</label>
   <input type="text" name="content" id="<%= @article.content %>"></p>
+  <input id="hidden" type="hidden" name="_method" value="PATCH">
   <input type="submit" name="submit" value="submit">
 </form>
